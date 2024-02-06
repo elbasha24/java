@@ -1,4 +1,4 @@
-public class j1 {
+public class j3 {
     public static void main(String[] args) {
         String ns = "nasr";
         System.out.println(ns.length() + "\n"); // 4
@@ -24,6 +24,15 @@ public class j1 {
         System.out.println(ns.isEmpty() ? "empty string" : "non-empty string");
         System.out.println(ns.lastIndexOf(ns.charAt(0))); // 0
 
+        // System.out.println(Character.charCount("Hello")); // count characters in string
+        System.out.println(Character.isDigit('5')); // check if character is digit
+        System.out.println(Character.isLowerCase('h')); // lowercase letter
+        System.out.println(Character.isUpperCase('H')); // upper case letter
+        System.out.println(Character.isLetterOrDigit('5')); // al
+        System.out.println(Character.isWhitespace('\n')); // whitespace
+        System.out.println(String.valueOf(1234).substring(2)); // convert to String and substring
+        
+        System.out.println(new StringBuilder().append("Hello").reverse().toString()); // reverse a string
         StringBuilder sb = new StringBuilder();
         for (int i=0; i<5; i++) {
             sb.append(i).append(", ");
