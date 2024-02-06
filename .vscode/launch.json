@@ -2,6 +2,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "j7_if",
+      "request": "launch",
+      "mainClass": "j7_if",
+      "projectName": "java_5b38cb8a"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
