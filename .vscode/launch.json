@@ -3,6 +3,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LoopFor",
+      "request": "launch",
+      "mainClass": "LoopFor",
+      "projectName": "java_5b38cb8a"
+    },
+    {
+      "type": "java",
+      "name": "stringFormat",
+      "request": "launch",
+      "mainClass": "stringFormat",
+      "projectName": "java_5b38cb8a"
+    },
+    {
+      "type": "java",
+      "name": "whileL",
+      "request": "launch",
+      "mainClass": "whileL",
+      "projectName": "java_5b38cb8a"
+    },
+    {
+      "type": "java",
+      "name": "j9_switch",
+      "request": "launch",
+      "mainClass": "j9_switch",
+      "projectName": "java_5b38cb8a"
+    },
+    {
+      "type": "java",
+      "name": "j8_randoM",
+      "request": "launch",
+      "mainClass": "j8_randoM",
+      "projectName": "java_5b38cb8a"
+    },
+    {
+      "type": "java",
+      "name": "j8_random",
+      "request": "launch",
+      "mainClass": "j8_random",
+      "projectName": "java_5b38cb8a"
+    },
+    {
+      "type": "java",
       "name": "j7_if",
       "request": "launch",
       "mainClass": "j7_if",
